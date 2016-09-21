@@ -17,12 +17,12 @@ namespace Regex1
             //{
             //    Console.WriteLine("Ange personnummer");
             //    string input = Console.ReadLine();
-            //    Console.WriteLine(Regex.IsMatch(input, "^(19|20)?([0-9]{2}[- ]?(?:0[1-9]|1[0-2])[- ]?(?:[0-2][1-9]|3[0-1])[- ]?[0-9]{4})$")
+            //    Console.WriteLine(Regex.IsMatch(input, "^(19|20)?((?:[0-9]{2}[- ]?)(?!02[- ]?(29|30|31)|(04|06|09|11)[- ]?31)(?:(?:0[1-9]|1[0-2])[- ]?(?:[0-2][1-9]|3[0-1])[-+ ]?[0-9]{4}))$")
             //        ? "Giltligt!"
             //        : "Ej giltligt, försök igen!");
             //}
 
-            //// Uppgift 5
+            //// Uppgift 5 (man kan använda i i regex men .ToLower() är bättre!)
             //while (true)
             //{
             //    Console.WriteLine("input text");
