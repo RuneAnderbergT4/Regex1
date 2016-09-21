@@ -22,14 +22,13 @@ namespace Regex1
             //        : "Ej giltligt, försök igen!");
             //}
 
-            // Uppgift 5
-            while (true)
-            {
-                Console.WriteLine("input text");
-                string input = Console.ReadLine().ToLower();
-                Console.WriteLine(Regex.Matches(input, "\\bdet\\b").Count);
-            }
-
+            //// Uppgift 5
+            //while (true)
+            //{
+            //    Console.WriteLine("input text");
+            //    string input = Console.ReadLine().ToLower();
+            //    Console.WriteLine(Regex.Matches(input, "\\bdet\\b").Count);
+            //}
         }
     }
 }
